@@ -1,0 +1,9 @@
+path: ./mydatas/ 
+train: images/train 
+val: images/val
+names:
+  0: cow
+  1: horse
+  2: sheep
+   #标签的顺序应与索引顺序一致
+epochs: 200 #修改训练周期
